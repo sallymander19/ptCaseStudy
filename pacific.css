@@ -1,8 +1,8 @@
+ header {background-image: url(images/sunset.jpg);
+     background-repeat: no-repeat;
+     background-position: right;}
 h1 { background-color: #000033;
     color:#ffffff ;
-    background-image: url(images/sunset.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
     font-family: Georgia,Times,"Times New Roman",serif;
     margin-bottom: 0 }
 nav { background-color: #90C7E3;
