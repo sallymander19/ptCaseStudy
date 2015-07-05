@@ -135,6 +135,7 @@ footer { background-color: #fff;
     #content ul {list-style-position: outside}
     .desktop {display: none}
     .mobile {display: inline}
-    label {float: none}
+    label {float: none;
+    text-align: left}
     
 }
