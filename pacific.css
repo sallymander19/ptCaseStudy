@@ -49,6 +49,20 @@ h3 { color:#000033;
     font-family: Georgia,Times,"Times New Roman",serif}
 #content ul { list-style-image: url(images/marker.gif);
     list-style-position:inside}
+table {border: 1px solid #39c;
+    width: 80%;
+    border-spacing: 0}
+td, th {padding: 5px;
+    border: 1px solid #39c;
+    text-align: center}
+.text {text-align: left}
+tr:nth-of-type(even) {background-color: #F5FAFC}
+label {float: left;
+    display: block;
+    text-align: right;
+    width: 120px}
+input, textarea {display: block;
+    margin-bottom: 20px}
 #contact {font-size: 90% }
 .desktop {display: inline;}
 .mobile {display: none}
@@ -121,4 +135,6 @@ footer { background-color: #fff;
     #content ul {list-style-position: outside}
     .desktop {display: none}
     .mobile {display: inline}
+    label {float: none}
+    
 }
