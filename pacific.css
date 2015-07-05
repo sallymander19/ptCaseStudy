@@ -77,7 +77,8 @@ footer { background-color: #fff;
     font-size: 75%;
     font-family: Georgia,Times,"Times New Roman",serif;
     padding: 20px;
-    margin-left: 190px}
+    margin-left: 190px;
+    clear:both}
 @media only screen and (max-width: 768px) {
     nav {float: none;
     width: auto;
@@ -92,7 +93,7 @@ footer { background-color: #fff;
         width: auto;
         box-shadow: none}
     #content {margin-left: 0}
-    #footer {margin-left: 0}
+    footer {margin-left: 0}
 }
 @media only screen and (max-width: 550px) {
     #gallery {display: none}
@@ -104,6 +105,9 @@ footer { background-color: #fff;
     #content {padding: .1em 1em;
         margin: 0;
         font-size: 90%}
+    nav ul {text-align: center;
+        padding: 0;
+        margin: 0}
    nav li {display: block;
        margin: 0;
        padding: .3em;
