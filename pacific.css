@@ -19,10 +19,14 @@ nav { font-weight: bold;
 nav ul {list-style-type: none;
     padding: 0;
     margin: 0}
-nav a {text-decoration: none}
+nav a {text-decoration: none;
+    -webkit-ttransition: 3s ease-out;
+    -moz-transition: 3s ease-out;
+    -o-transition: 3s ease-out;
+    transition: 3s ease-out}
 nav a:link { color:#003 }
 nav a:visited { color:#344873 }
-nav a:hover { color:#fff }
+nav a:hover { color:#fff; }
 body { color:#666666;
     font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
     background-image: url(images/ptrbackground.jpg)}
@@ -38,8 +42,9 @@ body { color:#666666;
     padding-right: 20px;
     padding-bottom: 20px;
     margin-left: 190px }
-.float {float:left;
+#content img, #content video, #content embed             {float:left;
     padding-right: 20px}
+.coast {display: none}
 h2 { color: #3399CC;
     font-family: Georgia,Times,"Times New Roman",serif;
     text-shadow: 1px 1px 1px #666}
@@ -119,6 +124,8 @@ footer { background-color: #fff;
     #content {padding: .1em 1em;
         margin: 0;
         font-size: 90%}
+    .coast {display: block}
+    #content video, #content embed{display: none}
     nav ul {text-align: center;
         padding: 0;
         margin: 0}
@@ -137,5 +144,4 @@ footer { background-color: #fff;
     .mobile {display: inline}
     label {float: none;
     text-align: left}
-    
-}
+    }
